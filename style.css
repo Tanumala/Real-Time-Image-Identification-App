@@ -1,0 +1,58 @@
+  .heading
+  {
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div
+  {
+    background: white ; 
+    float: none;
+    border-radius: 20px; 
+    color: black;
+    box-shadow:10px 10px 5px 6px grey;
+    padding: 10px;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+    
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px 5px grey;
+    font-size: 20px;
+  }
+
+  .result_para_tag span
+  {
+     white-space:pre-line;
+  }
+
+  .copy_right_footer
+  {
+    bottom:0;
+    position: fixed;
+    color: white;
+    background-color: grey;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+
+  }
+
+  canvas
+  {
+    margin-top: 160px;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes example
+  {
+    from{box-shadow : 5px 5px 8px 10px red;}
+    to{box-shadow : 5px 5px 8px 10px greenyellow;}
+  }
+ 
